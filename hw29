@@ -1,0 +1,4 @@
+Console.WriteLine("Введите через запятую 8 чисел без пробелов");
+string str = Console.ReadLine();
+int[] myArray = str.Split(',');
+Console.WriteLine(myArray); 
