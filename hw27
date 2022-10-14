@@ -1,0 +1,7 @@
+Console.WriteLine("Введите любое число: ");
+String str = Console.ReadLine();
+char [] s = str.ToCharArray();
+int sum = 0;
+for (int i = 0; i < s.Length; i ++)
+sum = sum+Convert.ToInt32(s[i]);
+Console.WriteLine(sum);
